@@ -1,0 +1,39 @@
+{
+  "name": "spartan-gold",
+  "version": "1.0.7",
+  "description": "A simplified blockchain-based cryptocurrency for experimentation",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taustin/spartan-gold.git"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency"
+  ],
+  "author": "Tom Austin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taustin/spartan-gold/issues"
+  },
+  "homepage": "https://github.com/taustin/spartan-gold#readme",
+  "dependencies": {
+    "bm-pre": "github:taoxinyi/bm-pre",
+    "chai": "^4.2.0",
+    "jsbn": "^1.1.0",
+    "mocha": "^5.2.0",
+    "recrypt-js": "github:yjjnls/recrypt-js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "minimist": "^1.2.5",
+    "mkdirp": "^1.0.4"
+  },
+  "resolutions": {
+    "mkdirp": "^1.0.4"
+  }
+}
